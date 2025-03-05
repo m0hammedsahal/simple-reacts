@@ -1,0 +1,65 @@
+/* src/App.css */
+.App {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .animated-btn {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #00ffcc, #ff007a);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 204, 0.4);
+  }
+  
+  .animated-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 255, 204, 0.6);
+  }
+  
+  .file-btn {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .preview {
+    max-width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skin-color-display {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .color-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid white;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
