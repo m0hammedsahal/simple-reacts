@@ -14,7 +14,7 @@ function Home() {
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center text-center px-6">
         <h1 className="text-4xl md:text-6xl font-bold text-blue-400">
-          Welcome to <span className="text-yellow-400">My Website</span>
+          Welcome to <span className="text-yellow-400">Website</span>
         </h1>
         <Link to="/about">
           <button className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg text-lg font-semibold shadow-md transition">
